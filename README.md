@@ -1,2 +1,2 @@
 # NurlybekKenes.github.io
-My first site
+Мои домашний задания
