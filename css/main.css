@@ -1,0 +1,108 @@
+body {
+	background: #000;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+div, a, p, img, form, button {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.header {
+	
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+	margin-top: 42px;
+}
+
+.logo {
+	margin-right: 160px;
+}
+
+.menu {
+	display: flex;
+}
+
+.menu li {
+	font-size: 12px;
+	margin-right: 25px;
+}
+
+.menu li a {
+	color: #fff;
+	padding: 12px;
+}
+
+.menu li a.active,
+.menu li a:hover {
+	color: #6bff3d;
+	border-top: 1px solid #6bff3d;
+	border-bottom: 1px solid #6bff3d;
+}
+
+.phone {
+	font-size: 12px;
+	margin-left: auto;
+}
+
+.offer {
+	display: flex;
+	align-items: center;
+	margin-top: 106px;
+}
+
+.offer-content h1 {
+	font-size: 37px;
+	font-weight: 900;
+}
+
+.offer-content p {
+	font-size: 16px;
+	font-weight: 200;
+}
+
+.offer-content a {
+	background: #faf04b;
+	color: #000;
+	font-size: 14px;
+	font-weight: 900;
+	width: 218px;
+	display: block;
+	text-align: center;
+	padding: 17px 0;
+	transition: all 0.5ss ease;
+	margin-top: 35px;
+}
+
+.offer-content a:hover {
+	background: #fff008;
+}
+
+.triangles {
+	background: url('../img/poly.png');
+	width: 380px;
+	height: 379px;
+	margin-left: auto;
+	margin-right: 81px;
+}
